@@ -15,22 +15,26 @@
   </head>
   <body dir="rtl" class="bg-dark">
     <section class="BKEffect">
-      <div class="Timer">
+      <div class="Main">
         <select
-          onchange="GetCities(this)"
           class="state form-select"
           aria-label="Default select example"
+          onchange="GetStates()"
         >
           <option selected>انتخاب شهر</option>
         </select>
-        <div class="Cities">
-          <ol type="A" class="C-list"></ol>
-        </div>
+
+        <a
+          href="./City/Cities.html"
+          class="btn btn-success open"
+          target="_blank"
+          >بازکردن</a
+        >
       </div>
     </section>
 
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script src="./data.js"></script>
-    <script src="./Scripts.js"></script>
+    <script type="text/javascript" src="./JS/vanilla-tilt.js"></script>
+    <script src="./JS/data.js"></script>
+    <script src="./JS/Scripts.js"></script>
   </body>
 </html>
